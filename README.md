@@ -20,7 +20,7 @@ Working on this project was more of an experimental process than I had imagined.
 # Applink:
 Here is the link to my app: http://mysterious-stream-68205.herokuapp.com/
 # SQL - query
-For this assignment, I created SQL queries using MySQL in order to manipulate big data for an employee database, and also for a hosting app. I was able to clean the data, manipulate the database and filter the data.
+For this assignment, I created SQL queries using MySQL in order to manipulate big data for an employee database. I was able to clean the data, manipulate the database and filter the data.
 # JAVA - password hash
 For this assignment, I implemented a cracker and a dictionary system. For this code, I was able to use the MD5 hash system to check if a password matches the correct hash function.
 
