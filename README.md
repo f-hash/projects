@@ -25,4 +25,3 @@ For this assignment, I created SQL queries using MySQL in order to manipulate bi
 For this assignment, I implemented a cracker and a dictionary system. For this code, I was able to use the MD5 hash system to check if a password matches the correct hash function.
 
 
-
