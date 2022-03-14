@@ -1,0 +1,21 @@
+body{
+    background-color: grey;
+    background-image: url("car.jpeg");
+}
+#header{
+    text-align: center;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#sign{
+    color:red;
+    text-align: center; 
+}
+
+.form{
+    height: 300px;
+    color: white;
+    text-align: center ;
+    left: 100px;
+ 
+}

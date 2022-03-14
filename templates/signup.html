@@ -1,0 +1,27 @@
+<head>
+    <title></title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}">
+</head>
+<div>
+<h1 id="header">WELCOME TO THE MOVIE HOUSE</h1>
+<p id="sign">Sign Up Now!</p>
+</div> 
+<form method="POST" action="/signup" class="form">
+    Create Username <input type="text" name="enteruser"><br>
+    Create Password <input  type="password" name="enterpass"><br>
+    <input id="signup" type="submit"  value="Submit"> 
+</form>
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+    <ul id="message" class=flashes>
+    {% for message in messages %}
+         <p>{{ message }}</p>
+    {% endfor %}
+    </ul>
+{% endif %}
+{% endwith %}
+<body>
+    
+    
+</body>
+

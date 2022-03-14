@@ -1,0 +1,34 @@
+body{
+    background-color: white;
+    background-image: url("frontpage.jpg");
+}
+#mhouse{
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+}
+#para{
+    text-align: right;
+    font-family: cursive;
+    font-size: 30px;
+}
+.sign{
+    text-align: right;
+    font-family: cursive;
+    font-size: 30px;
+}
+ 
+#yessign{
+    font-size: 15px;
+    text-align: left;
+    font-family: cursive;
+    color: black;
+    background-color: blanchedalmond;
+}
+#myButton{
+    font-size: 15px;
+    text-align: left;
+    font-family: cursive;
+    color: black;
+    background-color: blanchedalmond;
+}

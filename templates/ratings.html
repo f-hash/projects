@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="{{url_for('static', filename = 'movie.css')}}">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <div>
+        <p class="moviepage"> <button id="mymovie">Click to go main page! </button></p>
+
+        <script type="text/javascript">
+            document.getElementById("mymovie").onclick = function () {
+                location.href = "\getmovie";
+            };
+
+        </script>
+
+    </div>
+
+    <body>
+        <div>
+            <div id="header" class="movie">
+                <h1 id="m.header"> Welcome to The Movie House </h1>
+                <p id="bottom"> Here you will be provided with the information about the movies you want to watch</p>
+            </div>
+
+            <div class="moviedetails">
+                <img src="{{pic}}" alt="pic">
+                <p id=title> Movie title: {{ title }}</p>
+                <p id="tag">Movie Tag: {{ tag }}</p>
+                <p id="genre">Genre: {{ ', ' .join(genlist) }}</p>
+
+                <a href="{{wikipage}}"> <button id="link"> Wikipedia page</button> </a>
+
+            </div>
+
+            <script>
+                document.getElementById("link").addEventListener("click", clickAlert);
+                function clickAlert() {
+                    alert("Going to Wikipedia page");
+                }
+            </script>
+
+            <h2>This current movie ratings is: {{rate_score}}</h2>
+            <h2> Comments Section</h2>
+            {% for i in range(commentslength) %}
+            <p>{{usercomments[i]}}</p>
+            {% if userids[i] == user %}
+
+            {% endif %}
+            {% endfor %}
+
+
+        </div>
+
+
+        </div>
+    </body>
+
+</html>

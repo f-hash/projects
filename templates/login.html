@@ -1,0 +1,27 @@
+<head>
+    <title></title>
+    <link rel="stylesheet" href="{{url_for('static', filename='login.css')}}">
+</head>
+<div style="text-align: center;  font-family: cursive">
+    <h1 id="login">LOG INTO THE MOVIE HOUSE</h1>
+ 
+    </div>
+ 
+<form method="POST" action="/submit" class="form">
+   
+   {{form.hidden_tag()}}
+   {{form.users.label}} {{form.users(size=20)}}
+   {{form.passw.label}} {{form.passw(size=20)}}
+ 
+    <input id="loginpage" type="submit" value="Go"> 
+</form> 
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <ul id="message" class=flashes>
+        {% for message in messages %}
+             <p>{{ message }}</p>
+        {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}
+ 

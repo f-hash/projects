@@ -1,0 +1,22 @@
+<head>
+    <title></title>
+    <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+</head>
+<div style="text-align:left;  font-family: cursive">
+<h1 id="mhouse">WELCOME TO THE MOVIE HOUSE</h1>
+<p id="para"> HAVE YOU SIGNED UP? </p>
+</div>
+<p class="sign"> <button id="yessign"> Login Here </button></p>
+<p class="sign"> <button id="myButton">SignUp Here </button></p>
+ 
+<script type="text/javascript">
+    document.getElementById("yessign").onclick = function () {
+        location.href = "\submit";
+    };
+</script>
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "\signup";
+    };
+</script>
+ 

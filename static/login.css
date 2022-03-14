@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+    background-image: url("login.jpg");
+}
+#head{
+  text-align: center;
+  font-family: cursive;
+  width: 100px;
+}
+#message{
+    Color: black; 
+    font-size: 50px;
+    text-align:right; 
+}
+.form{
+    text-align: right;
+    font-family: cursive;
+}
