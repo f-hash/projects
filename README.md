@@ -24,5 +24,5 @@ For this assignment, I created SQL queries using MySQL in order to manipulate bi
 # JAVA - password hash
 For this assignment, I implemented a cracker and a dictionary system. For this code, I was able to use the MD5 hash system to check if a password matches the correct hash function.
 # Web programming 
-For this class, I designed my website using amazon word press or AWS and using a PHP database. The link to the website is http://54.205.139.198/wp-admin
+For this class, I designed my website using amazon word press or AWS and using a PHP database. The link to the website is http://54.205.139.198/
 
